@@ -1,0 +1,138 @@
+.leftMargin{
+    margin-left: 2vw;
+}
+#barOne{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+   background-color: lightgreen;
+   padding: 1vh;
+   /* width:100vw; */
+}
+
+#logo{
+    height: 15vh;
+    width: 25vh;
+    margin-left: 2vw;
+}
+#hashtag{
+    font-weight: 300;
+}
+.BigFont{
+font-size: 7vh;
+}
+#search{
+    width: 25vw;
+    height: 3vw;
+    margin-bottom: 3vh;
+}
+
+#thirdBar{
+    background-color: beige;
+    padding-left: 2vw;
+    /* width:100vw; */
+}
+
+.cardContainer{
+display: flex;
+justify-content: center;
+background-color: aquamarine;
+/* width:100vw; */
+
+}
+
+.card{
+   border:1px solid;
+   height:20vh;
+   width:20vw;
+   border-radius: 20px;
+   margin:5vh 5vw;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background-color: lightslategrey;
+}
+
+.card:hover, .cardText:hover {
+    background-color: black;
+color:white;
+}
+
+.cardText{
+     font-size: 3vh;
+     font-weight: bolder;
+     color:antiquewhite
+}
+
+#submitProject{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    background-color: lightcyan;
+    /* width:100vw; */
+}
+
+#ProjectDescription{
+    font-size: 2.5vh;
+    line-height: 4vh;
+}
+
+.submitProject{
+    margin-top: 2vh;
+}
+
+#submitProjectBtn{
+    width:15vw;
+    height: 5vh;
+    font-size: 2vh;
+    background-color: lemonchiffon;
+}
+
+#NoDisplay{
+    display: none;
+}
+
+
+#Display{
+    display: block;
+}
+
+#ninjaLOGO{
+    height: 40vh;
+    width:30vw;
+    margin-top: 5vh;
+}
+
+#footer{
+    background-color: lightgreen;
+    width: 98vw;
+}
+
+#footer h1{
+    padding-left: 2vw;
+}
+#footerContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.listContainer{
+    background-color:lightgreen;
+    width: 980vw;
+    text-align: center;
+}
+    
+    .list{
+     margin:2vh 3vw;
+       background-color: lightgreen;
+       color: black;
+    }
+    .listText{
+        margin-top:-2vh;
+    }
