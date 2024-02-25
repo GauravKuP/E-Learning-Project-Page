@@ -16,6 +16,62 @@
     width: 25vh;
     margin-left: 2vw;
 }
+.logoImg{
+    height: 4vh;
+    width: 2vw;
+    padding:1vh 1.5vw;
+}
+#logoCenter{
+    text-align: center;
+    margin: 2vh;
+    background-color: lightgreen;
+    
+}
+
+#test{
+
+}
+/* #dropdown{
+    float: right;
+    margin: 3vh 5vw;
+} */
+#dropdownUL{
+  list-style-type: none;
+  position: absolute;
+  left: 85vw;
+  top:10vh;
+  background-color:hwb(0 0% 0% / 0.852);
+}
+.hiddenLI{
+    display: none;
+   
+}
+#visibleLI{
+    color:white;
+    width:5vw;
+    height:5vh;
+    text-align:center;
+    font-size: 3vh;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.hiddenLI a{
+    text-decoration: none;
+    color: white;
+}
+#dropdownUL:hover .hiddenLI{
+   display: block;
+   margin:1vh;
+   cursor: pointer;
+   /* z-index: 1; */
+}
+.hiddenLI:hover{
+    background-color: orange;
+}
+
+
+
+
 #hashtag{
     font-weight: 300;
 }
@@ -37,7 +93,10 @@ font-size: 7vh;
 .cardContainer{
 display: flex;
 justify-content: center;
-background-color: aquamarine;
+/* background-color:azure; */
+/* background-color:antiquewhite; */
+/* background-color:papayawhip; */
+background-color: peachpuff;
 /* width:100vw; */
 
 }
@@ -54,15 +113,9 @@ background-color: aquamarine;
    flex-direction: column;
    align-items: center;
    background-color: lightslategrey;
-    /* animation-name: card;
-   animation: 1s; */
    transition-property: all;
    transition-duration: 1s;
 }
-
-/* @keyframes card{
-    transform:translate(1vw, 1vw);
-} */
 
 .card:hover{
     background-color: black;
@@ -125,9 +178,6 @@ color:antiquewhite;
     width: 98vw;
 }
 
-#footer h1{
-    padding-left: 2vw;
-}
 #footerContent{
     display: flex;
     justify-content: center;
@@ -135,16 +185,15 @@ color:antiquewhite;
 }
 
 .listContainer{
-    background-color:lightgreen;
     width: 980vw;
     text-align: center;
 }
     
-    .list{
-     margin:2vh 3vw;
-       background-color: lightgreen;
+.list{
+     margin:-1vh 3vw;
        color: black;
-    }
-    .listText{
-        margin-top:-2vh;
-    }
+}
+
+.listText{
+        margin-top:-1vh;
+}
